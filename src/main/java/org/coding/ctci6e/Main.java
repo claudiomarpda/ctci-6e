@@ -1,4 +1,4 @@
-package org.example;
+package org.coding.ctci6e;
 
 public class Main {
     public static void main(String[] args) {

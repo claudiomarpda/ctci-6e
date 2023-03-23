@@ -1,4 +1,4 @@
-package org.example;
+package org.coding.ctci6e;
 
 import java.util.HashMap;
 import java.util.Map;

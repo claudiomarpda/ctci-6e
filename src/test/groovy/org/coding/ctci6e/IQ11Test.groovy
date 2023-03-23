@@ -1,4 +1,6 @@
-import org.example.IQ11
+package org.coding.ctci6e
+
+import org.coding.ctci6e.IQ11
 import spock.lang.Specification
 
 class IQ11Test extends Specification{
