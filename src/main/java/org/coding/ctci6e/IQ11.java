@@ -36,4 +36,16 @@ public class IQ11 {
         return true;
     }
 
+    public boolean isUniqueAscii(String s) {
+        if  (s.length() > 128) return false;
+        boolean[] chars = new boolean[128];
+
+        for (int i = 0; i < s.length(); i++) {
+            int c = s.charAt(i);
+            if (chars[c]) return false;
+            chars[c] = true;
+        }
+        return true;
+    }
+
 }
