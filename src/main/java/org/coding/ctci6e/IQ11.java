@@ -22,7 +22,7 @@ public class IQ11 {
         return true;
     }
 
-    public boolean isUniqueWithoutDataStructure(String s) {
+    public boolean isUniqueBySorting(String s) {
         char[] chars = s.toCharArray();
         Arrays.sort(chars);
 

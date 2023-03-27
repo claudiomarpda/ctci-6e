@@ -28,7 +28,7 @@ class IQ11Test extends Specification{
 
     def "is unique without data structure - unique chars - true"() {
         when:
-        def unique = subject.isUniqueWithoutDataStructure(s)
+        def unique = subject.isUniqueBySorting(s)
         then:
         unique
         where:
@@ -37,7 +37,7 @@ class IQ11Test extends Specification{
 
     def "is unique without data structure - not unique chars - false"() {
         when:
-        def unique = subject.isUniqueWithoutDataStructure(s)
+        def unique = subject.isUniqueBySorting(s)
         then:
         !unique
         where:
