@@ -2,9 +2,9 @@ package org.coding.ctci6e
 
 import spock.lang.Specification
 
-class IQ11Test extends Specification{
+class IQ11_IsUniqueTest extends Specification{
 
-    def subject = new IQ11()
+    def subject = new IQ11_IsUnique()
     def static uniqueChars = ["a", "a", "ab", "12", ",.", "a1."]
     def static notUniqueChars = ["aa", "aab", "11", "a1,1", ".."]
 

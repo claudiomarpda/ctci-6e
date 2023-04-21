@@ -1,11 +1,11 @@
 package org.coding.ctci6e
 
-import org.coding.ctci6e.IQ12
+
 import spock.lang.Specification
 
-class IQ12Test extends Specification {
+class IQ12_PermutationTest extends Specification {
 
-    def subject = new IQ12()
+    def subject = new IQ12_Permutation()
 
     def "permutes - strings are permutation - true"(String s1, String s2) {
         when:

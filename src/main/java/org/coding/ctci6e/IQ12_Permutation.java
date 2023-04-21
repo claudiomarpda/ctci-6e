@@ -8,7 +8,7 @@ import java.util.Map;
  * Given two strings, write a method to decide if one is a permutation of the other.
  * Hints: #1, #84, #122, #131
  */
-public class IQ12 {
+public class IQ12_Permutation {
 
     public boolean permutes(String s1, String s2) {
         if (s1.equals(s2)) return true;

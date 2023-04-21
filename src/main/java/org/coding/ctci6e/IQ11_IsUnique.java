@@ -8,7 +8,7 @@ import java.util.*;
  * cannot use additional data structures?
  * Hints: #44, #777, #732
  */
-public class IQ11 {
+public class IQ11_IsUnique {
 
     public boolean isUnique(String s) {
         Set<Character> set = new HashSet<>();
